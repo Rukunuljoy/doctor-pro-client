@@ -5,7 +5,8 @@ import img3 from '../../../assets/mature-woman-talk-doctor.webp'
 
 const Service = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div data-aos="fade-up"
+    data-aos-duration="2000" className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-6 sm:mx-auto sm:text-center md:mb-10 lg:max-w-2xl">
         <p className="mb-1 text-xl text-lime-500 font-semibold tracking-wide uppercase md:mb-2">
           New History
@@ -79,6 +80,9 @@ const Service = () => {
             </a>
         </div>
       </div>
+     <div className='text-center justify-center my-6'>
+     <button className='btn btn-outline hover:bg-lime-500 hover:border-none'>See More</button>
+     </div>
     </div>
   );
 };

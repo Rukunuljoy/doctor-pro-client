@@ -16,16 +16,16 @@ const Banner = () => {
           <div className=" ">
             <select className="select text-gray-500 mb-3 w-full max-w-xs">
               <option disabled selected>
-                Pick your favorite Simpson
+                Your Symptoms select to your application
               </option>
-              <option>Homer</option>
-              <option>Marge</option>
-              <option>Bart</option>
-              <option>Lisa</option>
-              <option>Maggie</option>
+              <option>headaceh</option>
+              <option>fever</option>
+              <option>coff</option>
+              <option>cancer</option>
+              <option>operation</option>
             </select><br/>
             
-            <button className="btn bg-gradient-to-tr border-none from-lime-400 to-lime-600">Search</button>
+            <button className="btn bg-gradient-to-tr text-white btn-outline hover:bg-lime-500 hover:border-none">Search</button>
           </div>
         </div>
       </div>

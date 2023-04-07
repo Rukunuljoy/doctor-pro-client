@@ -1,19 +1,24 @@
+import React from "react";
+import img1 from "../../../assets/medical-banner-with-icons_1325-1526.webp"
+import img2 from "../../../assets/360_F_200039173_utR4cVSxzhJkS5sTtkTzMtEje1y59n9t.jpg"
+import img3 from "../../../assets/images (1).jpeg"
+
 export const Blog = () => {
     return (
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="text-center mb-6">
+        <div className="text-center my-16">
         <h2 className="max-w-lg font-sans text-xl font-semibold leading-none tracking-tight text-gray-900 sm:text-lg md:mx-auto">
           Our Blog
         </h2>
-        <h2 className="text-3xl text-gray-700 font-bold md:text-2xl">
-          All the information of Bloging is available
+        <h2 className="text-3xl text-gray-700 font-bold ">
+          All the information of Blogging is available
         </h2>
       </div>
       
         <div  className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
           <div data-aos="flip-left" className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
             <img
-              src="https://images.pexels.com/photos/2408666/pexels-photo-2408666.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+              src={img1}
               className="object-cover w-full h-64"
               alt=""
             />
@@ -52,7 +57,7 @@ export const Blog = () => {
           </div>
           <div data-aos="flip-left" className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
             <img
-              src="https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src={img2}
               className="object-cover w-full h-64"
               alt=""
             />
@@ -91,7 +96,7 @@ export const Blog = () => {
           </div>
           <div data-aos="flip-left" className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
             <img
-              src="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src={img3}
               className="object-cover w-full h-64"
               alt=""
             />
