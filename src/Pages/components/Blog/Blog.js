@@ -19,7 +19,7 @@ export const Blog = () => {
           <div data-aos="flip-left" className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
             <img
               src={img1}
-              className="object-cover w-full h-64"
+              className="object-cover duration-500 hover:scale-110 w-full h-64"
               alt=""
             />
             <div className="p-5 border border-t-0">
@@ -58,7 +58,7 @@ export const Blog = () => {
           <div data-aos="flip-left" className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
             <img
               src={img2}
-              className="object-cover w-full h-64"
+              className="object-cover duration-500 hover:scale-110 w-full h-64"
               alt=""
             />
             <div className="p-5 border border-t-0">
@@ -97,7 +97,7 @@ export const Blog = () => {
           <div data-aos="flip-left" className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
             <img
               src={img3}
-              className="object-cover w-full h-64"
+              className="object-cover duration-500 hover:scale-110 w-full h-64"
               alt=""
             />
             <div className="p-5 border border-t-0">

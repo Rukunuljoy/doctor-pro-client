@@ -10,6 +10,8 @@ import { OnlineDetails } from '../OnlineDetails/OnlineDetails';
 import { News } from '../News/News';
 import { Work } from '../Work/Work';
 import ReachUs from '../ReachUs/ReachUs';
+import { Gallery } from '../Gallery/Gallery';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     return (
@@ -19,12 +21,13 @@ const Home = () => {
             <Find/>
             <Service/>
             <Work/>
+            <Gallery/>
             <OnlineDetails/>
             <News/>
             <HappyClients/>
             <Blog/>
             <ReachUs/>
-            <Content/>
+            <Contact/>
         </div>
     );
 };
